@@ -60,6 +60,18 @@ NOT_LOCOMOTION = {
     "jumper.dance_dream_wings",
     "jumper.dance_maze",
     "jumper.dance_waist",
+    # The same, with a clip **authored** for the 2026 crab-robot challenge by
+    # `tools/author_dazhaxie_dance.py` (submission repository) instead of
+    # imported from rl-wbc-fsm: pose library, 120 BPM timeline, per-frame IK
+    # planting the four support feet. Not one of the four's controls, for
+    # jumper.dance's reason, verbatim.
+    "jumper.dance_dazhaxie",
+    # The challenge's other entry, authored the same way by
+    # `tools/author_feiyi_dance.py`: 100 BPM, whip-step dashes that carry the
+    # body ±0.5 m and a horse-stance second half, four support feet planted by
+    # per-frame IK. Not one of the four's controls, for jumper.dance's reason,
+    # verbatim.
+    "jumper.dance_feiyi",
     # One-shot gestures on the same machinery, each with a clip of its own, imported
     # from rl-wbc-fsm.
     "jumper.gesture_bow",
